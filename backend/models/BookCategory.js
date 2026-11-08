@@ -13,5 +13,5 @@ const BookCategorySchema = new mongoose.Schema({
 {
     timestamps:true
 })
-
+//just for testing purpose
 export default mongoose.model("BookCategory",BookCategorySchema)

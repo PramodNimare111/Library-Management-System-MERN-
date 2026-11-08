@@ -41,5 +41,5 @@ const BookSchema = new mongoose.Schema({
 {
     timestamps:true
 })
-
+//we can also add a virtual field to the Book schema to populate the categories and transactions when querying for a book. This can be done using the `virtual` method provided by Mongoose. Here's an example of how to do that:
 export default mongoose.model("Book",BookSchema)

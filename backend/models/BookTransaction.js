@@ -41,5 +41,5 @@ const BookTransactionSchema = new mongoose.Schema({
         timestamps: true
     }
 );
-
+//here we are creating a BookTransaction model using the BookTransactionSchema and exporting it for use in other parts of the application. This model can be used to create, read, update, and delete book transaction records in the database.
 export default mongoose.model("BookTransaction", BookTransactionSchema)
